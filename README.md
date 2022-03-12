@@ -11,8 +11,8 @@
 - Publisher（talker.py）
 - Subscriber（listener.py）
 - setup.py
+- など・・・
 
-など・・・
 
 ### 演習課題の解答例
 - 演習1~3の解答例
