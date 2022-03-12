@@ -8,7 +8,6 @@ class Listener(Node):
         super().__init__('listener')
 
         self.create_subscription(String, 'helloworld', self.sub_callback, 10)
-        self.create_subscription
 
     def sub_callback(self, msg):
         self.get_logger().info("Received: {}".format(msg))
